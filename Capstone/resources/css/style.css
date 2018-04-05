@@ -1,0 +1,468 @@
+html {
+  font-family: "Calibre", sans-serif ;
+  font-size: 20px;
+}
+
+/*Banner*/
+
+.topnav  {
+  display: flex;
+  width: 100%;
+  height: 64px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+}
+
+h1  {
+  opacity: 0.7;
+}
+
+#grey  {
+  opacity: 0.4;
+}
+
+ul  {
+  display: flex;
+  padding-right: 24px;
+  font-size: 18px;
+  opacity: .6;
+}
+
+li{
+  padding-left: 16px;
+}
+
+.mobile {
+  visibility: collapse;
+  display: none;
+}
+
+@media only screen and (max-width: 760px) {
+    .topnav {
+      visibility: collapse;
+      display: none;
+    }
+
+    .mobile {
+      visibility: visible;
+      display: flex;
+      height: 64px;
+      width: 100%;
+      justify-content: space-evenly;
+  }
+}
+
+/*SPLASH*/
+
+/*Left*/
+
+.banner  {
+  background-color: lightgrey;
+  display: inline-flex;
+  align-items: center;
+}
+
+.bannerleft {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.bannerleft img  {
+  width: 100%;
+}
+
+/*Right*/
+
+.bannerright {
+  width: 40%;
+}
+
+.bannerright h1  {
+  font-weight: bold;
+  font-size: 50px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.bannerright h2  {
+  font-size: 25px;
+  font-weight: bold;
+  opacity: .5;
+  padding: 0 20px 0 0;
+}
+
+.button {
+  text-align: center;
+  background-color: black;
+  opacity: .6;
+  padding: 8px 0;
+  margin-right: 40px;
+  margin-top: 20px;
+  align-items: center;
+  color: white;
+}
+
+@media only screen and (max-width: 760px) {
+  .banner {
+    display: block;
+    margin-bottom: 32px;
+  }
+
+  .bannerleft {
+      width: 100%;
+      height: auto;
+      padding: 0 0 32px 0;
+  }
+
+  .bannerright  {
+    padding: 0 16px;
+    width: 100%;
+  }
+
+  .bannerright h2 {
+    padding: 32px 0 24px 0;
+  }
+
+ .button  {
+   background-position: center;
+}
+
+}
+
+
+/*ELEMENTS*/
+
+/*Left*/
+
+.elements  {
+  display: inline-flex;
+}
+
+#elements .info {
+  width: 90%;
+
+}
+
+#elements  {
+  background-color: white;
+  display:block;
+}
+
+#elements h1  {
+  font-size: 40px;
+  padding-top: 0px;
+  font-weight: bold;
+  width: 90%;
+  margin: 32px 0px 20px 0px;
+}
+
+.info #elements  {
+  padding: 0px 24px 32px 24px;
+  width: 90%;
+}
+
+p {
+  font-size: 15px;
+  opacity: .6;
+}
+
+#one  {
+  padding-bottom: 24px;
+}
+
+#two  {
+  padding-bottom: 32;
+}
+
+/*Right*/
+
+.details  {
+  width: 40%;
+  padding-top: 32px;
+}
+
+.deet img  {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+
+.information  {
+  width: 65%;
+  height: auto;
+}
+
+.information, h4, p {
+  padding-top: 8px;
+}
+
+#guest  {
+  background-color: #DCDCDC;
+}
+
+#info  {
+  padding-top: 16px;
+  border-left: .75px solid #DCDCDC;
+}
+
+.deet {
+  display: inline-flex;
+  align-items: center;
+  border-top: .75px solid #DCDCDC;
+  border-bottom: .75px solid #DCDCDC;
+}
+
+h4 {
+  opacity: .8;
+  font-size: 24px;
+}
+
+.deet a {
+  color: blue;
+  font-size: 18px;
+}
+
+#orientation {
+  border-top: none;
+}
+
+#mobilesec {
+  visibility: collapse;
+  display: none;
+}
+
+@media only screen and (max-width: 760px) {
+  #practicing {
+    visibility: collapse;
+    display: none;
+  }
+
+  #info {
+    display: block;
+    padding: 0;
+  }
+
+  #collapse  {
+    visibility: collapse;
+    display: none;
+  }
+
+  #mobilesec  {
+    visibility: visible;
+    display: inherit;
+    width: 100%;
+    padding: 0px;
+  }
+
+  #orientation, #campus, #guest {
+    display: block;
+    padding: 16px;
+    background-color: inherit;
+    border: none;
+  }
+
+  #guest  {
+    border-bottom: .75px solid #DCDCDC;
+    padding-bottom: 32px;
+  }
+
+  .information {
+    padding-left: 16px;
+    padding-bottom: 64px;
+  }
+
+  .information a  {
+    padding-left: 0;
+  }
+
+  #elements  {
+    margin-bottom: 0;
+    }
+
+    #guestlast  {
+      padding-bottom: 32px;;
+      }
+
+  }
+
+
+
+/*START LEARNING*/
+
+.learning {
+  background-color: grey;
+}
+
+.learning, .courses {
+  background-color: #DCDCDC;
+  padding: 0 72px 0 72px;
+}
+
+.learning h1  {
+  display: flex;
+  padding: 32px 0;
+  font-size: 40px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.courses  {
+  display: flex;
+  padding: 0 0 32px 0;
+}
+
+.course img {
+  height: auto;
+  width: 100%;
+}
+
+.course {
+  background-color: white;
+}
+
+.course h4, .courses p {
+  padding-left: 16px;
+}
+
+.course h5 {
+  font-size: 16px;
+  opacity: .6;
+  padding: 8px 0 8px 16px;
+}
+
+.course p {
+  padding-bottom: 24px;
+  width: 85%;
+}
+
+#center {
+  margin: 0 32px;
+}
+
+@media only screen and (max-width: 760px) {
+    .learning, .courses {
+      background-color: inherit;
+      padding: 0 16px;
+    }
+
+    .learning h1 {
+      padding-bottom: 16px;
+    }
+
+    .courses {
+      display: block;
+      padding: 0;
+    }
+
+    .course h4  {
+      background-color: #DCDCDC;
+      padding: 16px 0 24px 16px;
+    }
+
+    #center {
+      margin: 0;
+    }
+
+    .course {
+      padding-bottom: 8px;
+    }
+
+    .learning {
+      padding-bottom: 32px;
+      border-bottom: .75px solid #DCDCDC;
+    }
+}
+
+
+/*THESIS*/
+
+video  {
+  border: .75px solid #DCDCDC;
+  background-color: #DCDCDC;
+}
+
+#video  {
+  padding-top: 0;
+}
+
+#thesis, #thesismobile {
+  background-color: white;
+  border-bottom: none;
+}
+
+#urban h4 {
+  padding-top: 24px;
+}
+
+#fisma  {
+  background-color: #DCDCDC;
+}
+
+#last {
+  padding-bottom: 32px;
+}
+
+#thesis2  {
+  border: none;
+}
+
+@media only screen and (max-width: 760px) {
+    #thesis   {
+      padding-bottom: 0;
+    }
+
+    #urban, #fisma, #thesis3 {
+      visibility: collapse;
+      display: none;
+    }
+
+    .elements {
+      width: 100%;
+    }
+
+    #thesismobile {
+      margin-bottom: 0;
+    }
+
+    #video  {
+      padding-bottom: 24px;
+    }
+}
+
+/*FOOTER*/
+
+.footer {
+  display: flex;
+  padding: 16px 0 32px 24px;
+  border-top: .75px solid #DCDCDC;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 24px;
+  font-size: 12px;
+}
+
+.terms, a {
+  display: flex;
+  padding-left: 12px;
+}
+
+@media only screen and (max-width: 760px) {
+
+    .footer  {
+      padding-bottom: 16px;
+      border-top: none;
+    }
+
+    .terms {
+      display: none;
+      visibility: collapse;
+    }
+
+}
